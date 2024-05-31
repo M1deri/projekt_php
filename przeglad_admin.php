@@ -14,7 +14,7 @@ if (isset($_POST['add_client'])) {
     $email = $_POST['email'];
     $telefon = $_POST['tel'];
     $login = $_POST['log'];
-    $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
+    $password = ($_POST['password']);
     
     
     $query = $db->prepare("INSERT INTO klient (imie, nazwisko, data_urodzenia, email, telefon, log_in, haslo) VALUES (?, ?, ?, ?, ?, ?, ?)");

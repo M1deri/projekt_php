@@ -150,7 +150,7 @@ $books = $db->query("SELECT * FROM ksiazka")->fetchAll();
         </form>
     </main>
     <footer>
-        <p>Filip Tutaj - 2TP</p>
+        <p><a href="p.html">Filip Tutaj - 2TP</a></p>
     </footer>
 </body>
 </html>

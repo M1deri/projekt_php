@@ -118,10 +118,10 @@ $books = $db->query("SELECT * FROM ksiazka")->fetchAll();
             <input type="text" id="wyd" name="wyd" required>
             <label for="name">Rok wydania:</label>
             <input type="number" id="rok" name="rok" required>
-            <label for="quantity">Ilosc:</label>
-            <input type="number" id="quantity" name="quantity" required>
-            <label for="name">Cena:</label>
-            <input type="number" step="0.01" id="name" name="name" required>
+            <label for="ile">Ilosc:</label>
+            <input type="number" id="ile" name="ile" required>
+            <label for="cen">Cena:</label>
+            <input type="number" step="0.01" id="cen" name="cen" required>
             <button type="submit" name="add_book">Dodaj ksiazke</button>
         </form>
 

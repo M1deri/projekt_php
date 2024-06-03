@@ -24,7 +24,7 @@ if (isset($_POST['add_client'])) {
 if (isset($_POST['delete_client'])) {
     $client_id = $_POST['client_id'];
     
-    $query = $db->prepare("DELETE FROM klient WHERE id = ?");
+    $query = $db->prepare("DELETE FROM klient WHERE id_klienta = ?");
     $query->execute([$client_id]);
 }
 
@@ -44,7 +44,7 @@ if (isset($_POST['add_book'])) {
 if (isset($_POST['delete_book'])) {
     $book_id = $_POST['book_id'];
     
-    $query = $db->prepare("DELETE FROM ksiazka WHERE id = ?");
+    $query = $db->prepare("DELETE FROM ksiazka WHERE id_ksiazki = ?");
     $query->execute([$book_id]);
 }
 

@@ -27,6 +27,7 @@ session_start();
     <main>
         <h2>Witamy w ksiegarni!</h2>
         <p>Zapraszamy do przegladania naszych zasobow i skladania zamowien.</p>
+        <img src="gfhgdd.jpeg">
     </main>
     <footer>
         <p>Filip Tutaj - 2TP</p>
